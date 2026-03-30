@@ -9,7 +9,7 @@ console.log("My favorite number is " + number);
 // Create a variable for your height in feet and print it.
 let height = 4
 
-console.log("My height is "+height+"feet " );
+console.log("My height is "+height+" feet " );
 
 // Problem 3
 // Create a variable for your favorite animal and print it in a full sentence.
@@ -22,9 +22,9 @@ console.log("My favorite animal is "+animal)
 let first = "Abhay";
 let last = "kotcharlakota";
 
-console.log("My fist name is"+first)
+console.log("My fist name is " +first)
 
-console.log("My last name is"+last) 
+console.log("My last name is " + last) 
 
 // Problem 5
 // Create 3 variables: your first name, your age, and your favorite color.
@@ -32,4 +32,4 @@ console.log("My last name is"+last)
 let Create = "Abhay" 
 let age = 9
 let color = "blue"
-console.log("My name is "+Create+" My age is "+age+" My favorite color is "+color); 
+console.log("My name is "+Create+ " and my age is "+age+" and my favorite color is "+color); 

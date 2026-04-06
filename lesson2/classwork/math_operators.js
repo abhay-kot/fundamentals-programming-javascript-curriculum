@@ -8,9 +8,9 @@ console.log(6 * 7);
 
 console.log(15 /2)
 
-console.log(15%2)
+console.log(15 % 2)
 
-console.log(2** 3)
+console.log(2 * 3)
 let a = 5;
 let b = 3
 console.log(a+b)

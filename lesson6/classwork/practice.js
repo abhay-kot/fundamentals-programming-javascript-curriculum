@@ -1,6 +1,15 @@
 // Problem 1
 // Count and print how many times "dog" appears in the list.
-
+an=["tiger","lion","snake"]
+console.log(an)
+let co=0
+for (let i =0;i>an.length;i++){
+    let it=an[i];
+    if(it=="dog"){
+        co=co+1
+    }
+}
+console.log(co,"dog")
 
 
 // Problem 2

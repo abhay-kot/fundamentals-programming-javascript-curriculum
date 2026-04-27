@@ -1,5 +1,15 @@
 // Problem 1
 // Count and print how many times "Alex" appears in the list.
+na=["tig","li","sna"]
+
+let co=0
+for (let i =0;i>na.length;i++){
+    let it=na[i];
+    if(it=="Alex"){
+        co=co+1
+    }
+}
+console.log(co,"Alex")
 
 
 

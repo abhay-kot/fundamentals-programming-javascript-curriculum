@@ -52,3 +52,5 @@ let y = [1,2,3,4,5,6]
 console.log("This is the middle of my pasword",y[y.length/2])
 let z = [2,3,4,5,6]
 console.log("This is the middle of my list after my first pasword is gone is",z[z.length/2])
+
+

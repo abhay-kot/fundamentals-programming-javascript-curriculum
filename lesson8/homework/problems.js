@@ -5,7 +5,7 @@ function number( ){
     let bla = 42
     return bla
 }
-console.log(number)
+console.log(number())
 
 // Problem 2
 // Write a function that returns "penguin" and print the result.
@@ -14,7 +14,7 @@ function Penguin(){
     let ar = "Penguin" 
     return ar
 }
-console.log(Penguin)
+console.log(Penguin())
 
 
 
@@ -29,19 +29,20 @@ _fruit_()
 
 function change(){
     fruit = "Apple"
-
-console.log(fruit)
 }
+
 change()
+_fruit_()
 
 // Problem 4
 // Write a function that takes two parameters: first_name and last_name.
 // The function should return a string that combines the first and last names separated by a space.
 
-function names(Abhay, kotcharlakota ){
-    let st = Abhay +" "+ kotcharlakota
+function names(first_name, last_name ){
+    let st = first_name +" "+ last_name
+    return st;
     }
-console.log(names("Abhay nandan ,kotcharlakota!!!"))
+console.log(names())
 
 
 // Problem 5
@@ -50,7 +51,6 @@ console.log(names("Abhay nandan ,kotcharlakota!!!"))
 
 function calculate_perimeter(Length, Width ){
     let area = 2 * (Length + Width)
-    console.log(area)
     return area
 }
-calculate_perimeter()
+console.log(calculate_perimeter())

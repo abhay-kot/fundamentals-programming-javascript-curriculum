@@ -1,16 +1,36 @@
 // Problem 1
 // Write a function that returns the number 42 and print the result.
 
-
+function number( ){
+    let bla = 42
+    return bla
+}
 
 // Problem 2
 // Write a function that returns "penguin" and print the result.
+
+function pengui(){
+    let ar = "Penguin" 
+    return ar
+}
+
 
 
 
 // Problem 3
 // Create a variable for a fruit, then print it.
 // Modify it inside a function and print it again.
+let fruit = "blueberry"
+
+function fruit() {
+    console.log(fruit)
+}
+show_pet()
+
+function change(){
+    fruit = "dog"
+}
+
 
 
 

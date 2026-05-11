@@ -9,7 +9,7 @@ function number( ){
 // Problem 2
 // Write a function that returns "penguin" and print the result.
 
-function pengui(){
+function Penguin(){
     let ar = "Penguin" 
     return ar
 }
@@ -22,13 +22,13 @@ function pengui(){
 // Modify it inside a function and print it again.
 let fruit = "blueberry"
 
-function fruit() {
+function _fruit_() {
     console.log(fruit)
 }
-show_pet()
+_fruit_()
 
 function change(){
-    fruit = "dog"
+    fruit = "Apple"
 }
 
 
@@ -38,8 +38,21 @@ function change(){
 // Write a function that takes two parameters: first_name and last_name.
 // The function should return a string that combines the first and last names separated by a space.
 
+function names(Abhay, kotcharlakota ){
+    let st = Abhay * kotcharlakota
+    }
+console.log(names("Abhay nandan kotcharlakota!!!"))
 
 
 // Problem 5
 // Write a function called calculate_perimeter that takes two parameters: length and width.
 // The function should return the perimeter of a rectangle (2 * (length + width)).
+
+function calculate_perimeter(Length, Width ){
+    let area = Length + Width
+    return area
+
+    let f = area * 2
+
+    console.log(f)
+}

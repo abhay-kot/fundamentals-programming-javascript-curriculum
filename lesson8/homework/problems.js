@@ -42,7 +42,7 @@ function names(first_name, last_name ){
     let st = first_name +" "+ last_name
     return st;
     }
-console.log(names())
+console.log(names("Abhay Nandan","Kotcharlakota"))
 
 
 // Problem 5
@@ -53,4 +53,4 @@ function calculate_perimeter(Length, Width ){
     let area = 2 * (Length + Width)
     return area
 }
-console.log(calculate_perimeter())
+console.log(calculate_perimeter(67676767676767676767676,414141414141414141414141))

@@ -33,10 +33,23 @@ while(b <= a){
 // Ask the user to enter a starting number greater than 10.
 // Use a while loop to count down by 5 each time until the number is less than 0.
 let s = Number(prompt("Enter a number greater than  10"))
-while (s - 5 /s ) {
-    
+if(s>10){
+    while(s>0){
+        console.log(s)
+        s = s - 5
+    }
+}else{
+    console.log("INVALID NOT BIGGER THAN TEN")
 }
+    
+
 
 // Problem 5
-// Create a list of your three favorite animals.
+// Create a list of your three animals.
 // Use a while loop to print each animal with the text "is awesome!" after it.
+let l = ["Panda","Whitetiger","Penguin"]
+let o = 0
+while(o<l.length){
+    console.log(l[o],"is awsome!!!")
+    o++
+}
